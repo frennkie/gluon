@@ -1,4 +1,14 @@
 config '# CONFIG_KERNEL_KALLSYMS is not set'
+config 'CONFIG_GLUON_SPECIALIZE_KERNEL=y'
+
+no_opkg()
+
+packages {
+	'-kmod-usb-core',
+	'-kmod-usb2',
+	'-kmod-usb-ledtrig-usbport',
+}
+
 
 -- A5
 
