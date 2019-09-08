@@ -19,6 +19,9 @@ msgstr ""
 msgid "Automatic updates"
 msgstr ""
 
+msgid "Channel"
+msgstr ""
+
 msgid "Clients"
 msgstr ""
 
@@ -95,6 +98,9 @@ msgid "Transmitted"
 msgstr ""
 
 msgid "Uptime"
+msgstr ""
+
+msgid "WiFi"
 msgstr ""
 
 msgid "connected"
