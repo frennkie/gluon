@@ -135,6 +135,12 @@
 					<tr><th><%:Clients%></th><td><%= statistics('clients/total') %></td></tr>
 				</table>
 
+                                <h3><%:WiFi%></h3>
+                                <table>
+                                        <tr><th><%:Radio0%></th><td><%= statistics('wireless') %></td></tr>
+                                        <tr><th><%:Radio1%></th><td><%= statisticsTraffic('traffic/rx') %></td></tr>
+                                </table>					
+					
 				<h3><%:Traffic%></h3>
 				<table>
 					<tr><th><%:Transmitted%></th><td><%= statisticsTraffic('traffic/tx') %></td></tr>
